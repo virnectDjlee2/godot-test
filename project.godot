@@ -11,6 +11,7 @@ run/main_scene="res://viewer.tscn"
 
 [rendering]
 renderer/rendering_method="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
 
 [editor_plugins]
 enabled=PackedStringArray("res://addons/gut/plugin.cfg")

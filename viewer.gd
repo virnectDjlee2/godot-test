@@ -1,6 +1,8 @@
 extends Node3D
 ## CAD 3D 뷰어 — 마우스/터치 orbit, zoom, pan
-## MANIFOLD BLOCK ASSY glTF 모델을 로드하여 인터랙티브하게 조작
+## glTF 모델을 로드하여 인터랙티브하게 조작
+
+@export var model_path: String = "res://assets/models/cup.glb"
 
 var camera: Camera3D
 var pivot: Node3D  # 회전 중심점
@@ -84,7 +86,7 @@ func _setup_environment() -> void:
 
 	# UI
 	var label := Label3D.new()
-	label.text = "MANIFOLD BLOCK ASSY"
+	label.text = "3D Cup Viewer"
 	label.font_size = 32
 	label.position = Vector3(0, 3, 0)
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
@@ -92,10 +94,9 @@ func _setup_environment() -> void:
 	add_child(label)
 
 func _load_model() -> void:
-	var gltf_path := "res://assets/models/manifold_block.glb"
-	var scene := load(gltf_path) as PackedScene
+	var scene := load(model_path) as PackedScene
 	if scene == null:
-		push_error("glTF 로드 실패: " + gltf_path)
+		push_error("glTF 로드 실패: " + model_path)
 		return
 
 	model = scene.instantiate()

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "F-017",
+  "nodeType": "feature",
+  "title": "AR 편집 툴바 (삭제/복제/높이조절)",
+  "description": "배치된 모델 더블탭 시 편집 툴바를 표시하고 [삭제], [복제], 높이 조절 슬라이더를 구현한다. 선택된 모델의 하이라이트 표시 및 툴바 외부 탭 시 선택 해제 동작을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-016"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "arcore",
+    "edit-toolbar"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:30.8117607Z",
+  "updatedAt": "2026-03-26T04:54:30.844966Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic+ui"
+}

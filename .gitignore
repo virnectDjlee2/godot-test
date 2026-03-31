@@ -1,0 +1,19 @@
+# Godot editor data
+.godot/
+
+# Build outputs
+build/
+
+# Orchestrator / Flow worktrees
+.orchestrator/
+.worktrees/
+
+# UID cache files
+*.uid
+
+# SSL certs (local dev)
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db

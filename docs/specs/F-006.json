@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-006",
+  "nodeType": "feature",
+  "title": "번들 모델 카탈로그 Repository",
+  "description": "앱 assets/models/manifest.json을 파싱하여 ModelItem 목록을 반환하는 Repository를 구현한다. 카테고리 필터링, 이름 검색, GLB/썸네일 파일 경로 해석 로직 포함.",
+  "status": "draft",
+  "dependencies": [
+    "F-004",
+    "F-005"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "catalog",
+    "repository"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:29.1288333Z",
+  "updatedAt": "2026-03-26T04:54:29.161584Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic"
+}

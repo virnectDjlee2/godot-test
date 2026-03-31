@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "F-009",
+  "nodeType": "feature",
+  "title": "스플래시 및 온보딩 화면",
+  "description": "Jetpack Compose로 스플래시 1장과 온보딩 3장(스와이프 페이저)을 구현한다. 각 온보딩 페이지에 일러스트·설명 텍스트를 배치하고, [건너뛰기]/[시작하기] 버튼과 SharedPreferences onboarding_done 플래그 저장 로직을 포함한다.",
+  "status": "draft",
+  "dependencies": [],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "onboarding",
+    "splash"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:28.1922434Z",
+  "updatedAt": "2026-03-26T04:54:28.224247Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "ui",
+  "asset_hint": "온보딩 일러스트 3종 필요(참고 UI 이미지 또는 스타일 텍스트로 생성 가능)"
+}

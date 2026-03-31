@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-015",
+  "nodeType": "feature",
+  "title": "AR 모델 배치 (Hit Test + 렌더링)",
+  "description": "감지된 평면 터치 시 Hit Test로 좌표를 구하고 ARCore Anchor를 생성하여 SceneView에 GLB 모델을 배치한다. 하단 수평 스크롤 썸네일 바로 현재 프로젝트 모델을 선택하는 UI를 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-014",
+    "F-006"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "arcore",
+    "placement"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:30.0576261Z",
+  "updatedAt": "2026-03-26T04:54:30.089992Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic+ui"
+}

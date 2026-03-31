@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-003",
+  "nodeType": "feature",
+  "title": "GLB 썸네일 및 메타데이터 생성",
+  "description": "Blender headless로 GLB 파일을 렌더링해 썸네일 PNG를 생성하고, 바운딩 박스(실측 크기), 폴리곤 수, 카테고리를 담은 메타데이터 JSON 파일을 출력하는 스크립트를 구현한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-001"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "cad-pipeline",
+    "metadata"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:28.5668670Z",
+  "updatedAt": "2026-03-26T04:54:28.599400Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "3d-asset",
+  "asset_hint": "F-001 또는 F-002에서 생성된 GLB 파일 필요"
+}

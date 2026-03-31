@@ -1,1 +1,6 @@
-{}
+{
+  "specRepository": "https://github.com/virnectDjlee2/godot-test.git",
+  "specBranch": "main",
+  "pollingInterval": 30,
+  "wizardDismissed": true
+}

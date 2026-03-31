@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "id": "F-014",
+  "nodeType": "feature",
+  "title": "ARCore 초기화 및 평면 감지",
+  "description": "ARCore Session 초기화, 카메라 권한 요청, Plane Detection을 구현하고, 감지된 바닥(파란색)/벽(초록색) 평면을 반투명 그리드 메시로 시각화한다. 초기 가이드 오버레이 텍스트·애니메이션을 Compose로 오버레이한다.",
+  "status": "draft",
+  "dependencies": [],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "arcore",
+    "plane-detection"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:28.3850809Z",
+  "updatedAt": "2026-03-26T04:54:28.417626Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic+ui"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "F-001",
+  "nodeType": "feature",
+  "title": "STEP/IGES → GLB 변환 스크립트",
+  "description": "OpenCascade 또는 FreeCAD headless를 사용하여 .step/.iges CAD 파일을 파싱하고, 메시 테셀레이션 후 trimesh로 폴리곤 최적화하여 glTF 2.0/GLB로 출력하는 Python 스크립트를 구현한다.",
+  "status": "draft",
+  "dependencies": [],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "cad-pipeline",
+    "glb-conversion"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:27.5884277Z",
+  "updatedAt": "2026-03-26T04:54:27.630849Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "3d-asset",
+  "asset_hint": "CAD 파일(.step 또는 .iges) 필요"
+}

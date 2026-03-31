@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-004",
+  "nodeType": "feature",
+  "title": "카탈로그 manifest.json 생성 및 앱 배치",
+  "description": "변환된 GLB, 썸네일, 메타데이터를 취합하여 앱이 읽을 수 있는 catalog/manifest.json을 생성하고, assets/models/ 디렉터리에 자동 배치하는 빌드 스크립트(Python 또는 Makefile)를 구현한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-003"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "cad-pipeline",
+    "catalog"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:28.9449966Z",
+  "updatedAt": "2026-03-26T04:54:28.977946Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "3d-asset",
+  "asset_hint": "F-003 산출물(GLB + 썸네일 + 메타데이터 JSON) 필요"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "F-016",
+  "nodeType": "feature",
+  "title": "AR 모델 조작 (이동/회전/스케일)",
+  "description": "배치된 모델에 한 손가락 드래그(위치 이동), 두 손가락 회전(Y축), 핀치(스케일) 제스처 처리를 구현한다. 상단 바의 [실행 취소] 버튼으로 마지막 배치/조작을 되돌리는 Undo 스택을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-015"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "arcore",
+    "gesture"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:30.4283649Z",
+  "updatedAt": "2026-03-26T04:54:30.460258Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic+ui"
+}

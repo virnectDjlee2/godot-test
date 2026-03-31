@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "F-007",
+  "nodeType": "feature",
+  "title": "모델 서버 FastAPI",
+  "description": "GET /api/catalog, GET /api/model/{id}/glb, GET /api/model/{id}/meta 엔드포인트를 FastAPI로 구현한다. manifest.json을 기반으로 모델 목록과 파일을 서빙하며, CORS 설정 및 정적 파일 서빙 포함.",
+  "status": "draft",
+  "dependencies": [
+    "F-004"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "server",
+    "api"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:29.3128292Z",
+  "updatedAt": "2026-03-26T04:54:29.345132Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic"
+}

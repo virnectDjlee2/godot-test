@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "id": "F-013",
+  "nodeType": "feature",
+  "title": "프로젝트 상세 화면",
+  "description": "Jetpack Compose로 탭 2개(사용 중 모델 리스트, AR 배치 기록 스냅샷 리스트)를 구현한다. [+ 카탈로그에서 추가] 버튼으로 모델 카탈로그 화면 진입, 카드 탭 시 3D 프리뷰 화면으로 이동하는 네비게이션을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-005",
+    "F-006"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "project",
+    "ui"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:29.8715902Z",
+  "updatedAt": "2026-03-26T04:54:29.903493Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "ui",
+  "asset_hint": "참고 UI 이미지 필요"
+}

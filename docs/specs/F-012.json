@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "F-012",
+  "nodeType": "feature",
+  "title": "3D 프리뷰 화면",
+  "description": "SceneView(Filament 기반)를 Compose에 임베드하여 GLB 모델의 터치 회전·핀치 확대/축소를 구현한다. 하단 패널에 모델 정보(파일명·크기·폴리곤 수), 와이어프레임 토글, 배경색 전환, [AR로 보기] 버튼을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-006"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "3d-viewer",
+    "sceneview"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:29.6878499Z",
+  "updatedAt": "2026-03-26T04:54:29.720531Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic+ui"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-010",
+  "nodeType": "feature",
+  "title": "홈 화면 — 프로젝트 목록",
+  "description": "Jetpack Compose로 프로젝트 카드 리스트(썸네일·이름·날짜·모델 수), FAB [+ 새 프로젝트], 빈 상태 안내, 롱프레스 삭제 확인 다이얼로그를 구현한다. ViewModel에서 Room DB 프로젝트 목록을 구독한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-005"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "home",
+    "project"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:28.7551663Z",
+  "updatedAt": "2026-03-26T04:54:28.787880Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "ui",
+  "asset_hint": "참고 UI 이미지 필요"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-008",
+  "nodeType": "feature",
+  "title": "Retrofit 네트워크 레이어",
+  "description": "Retrofit + OkHttp로 모델 서버 API 클라이언트를 구현한다. 카탈로그 동기화, GLB 파일 다운로드(캐시 포함), 네트워크 미사용 시 번들 폴백 로직을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-006",
+    "F-007"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "network",
+    "retrofit"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:30.2473761Z",
+  "updatedAt": "2026-03-26T04:54:30.280255Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic"
+}

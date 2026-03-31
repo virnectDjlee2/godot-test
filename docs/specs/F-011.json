@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "id": "F-011",
+  "nodeType": "feature",
+  "title": "모델 카탈로그 화면",
+  "description": "Jetpack Compose로 카테고리 탭 + 2열 그리드(썸네일·모델명·실제 크기)를 구현한다. 상단 검색 바로 이름/카테고리 필터링, 카드 탭 시 3D 프리뷰 화면으로 이동하는 네비게이션을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-006"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "catalog",
+    "ui"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:29.5034264Z",
+  "updatedAt": "2026-03-26T04:54:29.536554Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "ui",
+  "asset_hint": "참고 UI 이미지 필요"
+}

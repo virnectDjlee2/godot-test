@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "F-002",
+  "nodeType": "feature",
+  "title": "STL/OBJ/FBX → GLB 변환 스크립트",
+  "description": "Blender headless 또는 trimesh를 사용하여 .stl/.obj/.fbx 포맷 파일을 glTF 2.0/GLB로 변환하는 Python 스크립트를 구현한다. 포맷 자동 판별 로직 포함.",
+  "status": "draft",
+  "dependencies": [],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "cad-pipeline",
+    "glb-conversion"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:27.8093024Z",
+  "updatedAt": "2026-03-26T04:54:27.851303Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "3d-asset",
+  "asset_hint": "CAD 파일(.stl, .obj, .fbx 중 하나) 필요"
+}

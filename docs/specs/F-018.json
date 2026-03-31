@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "id": "F-018",
+  "nodeType": "feature",
+  "title": "스크린샷/저장/공유",
+  "description": "AR 화면 캡처 후 갤러리 저장(MediaStore API)과 Android ShareSheet 공유(이미지+텍스트)를 구현한다. 현재 배치 상태(모델ID·position·rotation·scale 배열)를 JSON으로 Room DB PlacementRecord에 저장하는 로직을 포함한다.",
+  "status": "draft",
+  "dependencies": [
+    "F-015",
+    "F-005"
+  ],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "screenshot",
+    "storage",
+    "share"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:30.6203679Z",
+  "updatedAt": "2026-03-26T04:54:30.652877Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic"
+}

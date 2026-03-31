@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "id": "F-005",
+  "nodeType": "feature",
+  "title": "Room DB 스키마 및 DAO",
+  "description": "Project(id, name, thumbnailPath, createdAt, modelCount)와 PlacementRecord(id, projectId, modelId, positionJson, rotationJson, scale, snapshotPath) 엔티티를 Room DB로 정의하고, CRUD DAO 및 Repository를 구현한다.",
+  "status": "draft",
+  "dependencies": [],
+  "conditions": [],
+  "codeRefs": [],
+  "evidence": [],
+  "tags": [
+    "database",
+    "room"
+  ],
+  "supersedes": [],
+  "supersededBy": [],
+  "mutates": [],
+  "mutatedBy": [],
+  "activity": [],
+  "createdAt": "2026-03-26T04:54:28.0112258Z",
+  "updatedAt": "2026-03-26T04:54:28.044478Z",
+  "epic": "AR-CAD-Placer",
+  "spec_type": "logic"
+}
